@@ -312,6 +312,9 @@ body {
     .about-text, .about-image {
         max-width: 100%;
     }
+    .about-text h2::after {
+        left: 160px;
+    }
 }
 /* Services Section Styles */
 .services {
@@ -518,19 +521,25 @@ body {
     display: block;
 }
 #email1{
-    margin-left: -158px;
+    margin-left: -168px;
+}
+#email2{
+    margin-left: -11px;
 }
 #whatsapp{
     margin-left: -9px;
 }
 #phone-number{
-    margin-left: -20px;
+    margin-left: -11px;
+}
+#discord1{
+    margin-left: -16px;
 }
 #discord{
-    margin-left: -8px;
+    margin-left: -10px;
 }
 #linkedin1{
-    margin-left: -20px;
+    margin-left: -27px;
 }
 .contact-details a {
     color: gold; /* Neon green link color */
